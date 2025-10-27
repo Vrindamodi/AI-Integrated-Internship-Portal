@@ -1,0 +1,77 @@
+# =====================================================
+# 🌐 FRONTEND (Next.js / Node.js)
+# =====================================================
+node_modules/
+.next/
+out/
+build/
+dist/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore temporary editor files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# =====================================================
+# 🐍 BACKEND (Python / Flask)
+# =====================================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+instance/
+venv/
+env/
+ENV/
+.venv/
+db.sqlite3
+*.db
+*.sqlite3
+
+# Flask environment files
+.env
+*.env
+config.py
+settings.py
+
+# Pytest / coverage
+.coverage
+htmlcov/
+*.egg-info/
+.eggs/
+*.egg
+
+# =====================================================
+# 🧰 GENERAL / IDE FILES
+# =====================================================
+# VS Code settings
+.vscode/
+.history/
+.idea/
+*.swp
+*.swo
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
+
+# =====================================================
+# 🧱 BUILD ARTIFACTS (Java / Misc)
+# =====================================================
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+target/
