@@ -1,0 +1,33 @@
+# Environment variables for the Smart Allocation Engine API
+
+# Database Configuration
+# For SQLite (development/testing) - no additional setup needed
+DATABASE_URL=sqlite:///./smart_allocation.db
+
+# For PostgreSQL (production) - uncomment and configure below
+# DATABASE_URL=postgresql://username:password@localhost:5432/smart_allocation
+
+# API Configuration
+API_HOST=0.0.0.0
+API_PORT=8000
+API_RELOAD=true
+
+# Logging
+LOG_LEVEL=INFO
+
+# CORS Configuration (comma-separated origins)
+CORS_ORIGINS=http://localhost:3000,http://localhost:3001
+
+# Embedding Model Configuration
+EMBEDDING_MODEL_NAME=all-MiniLM-L6-v2
+USE_EMBEDDINGS=true
+
+# Matching Algorithm Configuration
+DEFAULT_AGE_MIN=21
+DEFAULT_AGE_MAX=30
+DEFAULT_BENEFICIARY_CATEGORIES=sc,st
+DEFAULT_ASPIRATIONAL_DISTRICTS=
+
+# Security (for production)
+SECRET_KEY=your-secret-key-here
+ACCESS_TOKEN_EXPIRE_MINUTES=30
